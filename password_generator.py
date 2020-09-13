@@ -31,6 +31,11 @@ def generate():
     #print(s)
     password=("".join(s[0:passlen]))
     print(password)
+    output=open("Passwords.txt" ,"a")
+    #This writes outputs on a new line
+    output.write( "Password : "+ password + "\n")
+    output.close()
 
-    
 generate()
+
+
