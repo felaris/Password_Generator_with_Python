@@ -14,3 +14,13 @@ def generate():
 
     passlen = int(passlen)
     
+    
+    s=[]
+    s.extend(list(s1))
+
+    s.extend(list(s2))
+
+    s.extend(list(s3))
+
+    s.extend(list(s4))
+    
